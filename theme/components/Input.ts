@@ -1,12 +1,12 @@
+import Colors from "../colors"
 export default {
     baseStyle: {
         fontFamily: "Cinzel",
         fontSize: "36px",
-        bg: "#E7E7E7",
-        borderColor: "#5270a4",
+        bg: Colors.brand.white,
+        borderColor	: "Red",
         borderRadius: "0",
         textAlign: "center",
-        color: "#5270a4",
         border: "1px solid",
         h: "97px",
         w: "336px",

@@ -1,3 +1,4 @@
+import Colors from "../colors"
 export default {
     baseStyle: {
         fontFamily: "Cinzel",
@@ -15,10 +16,10 @@ export default {
     },
     variants: {
         solid: {
-            bg: "#5270A4",
-            color: "#E7E7E7",
+            bg: Colors.brand[50],
+            color: Colors.brand.white,
             "_hover": {
-                bg: "#5270A4",
+                bg: Colors.brand[50],
                 boxShadow: "none"
             },
             filter: "dropShadow(0px 4px 4px rgba(0, 0, 0, 0.25))"
