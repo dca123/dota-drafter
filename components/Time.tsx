@@ -15,7 +15,7 @@ function Text(props: Dict) {
 
 export default function Time(){
     return(
-        <Box w="80%" > 
+        <Box> 
             <Flex justifyContent="space-around">
                 <Flex direction="column" alignItems="center">
                     <Text variant="reserveTime">1:38</Text>
